@@ -26,9 +26,4 @@
     <td>D0871052</td>
     <td>g-chameleon</td>
   </tr>
-  <tr>
-    <td>組員姓名</td>
-    <td>學號</td>
-    <td>GitHub帳號</td>
-  </tr>
 </table>
