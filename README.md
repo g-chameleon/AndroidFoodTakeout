@@ -41,7 +41,7 @@
     <tr>
     <td>黃冠齊</td>
     <td>D0870757</td>
-    <td></td>
+    <td>#3</td>
   </tr>
     <tr>
     <td>張澤煜</td>
@@ -51,6 +51,6 @@
   <tr>
     <td>高明皓</td>
     <td>D0871052</td>
-    <td></td>
+    <td>#5</td>
   </tr>
 </table>
