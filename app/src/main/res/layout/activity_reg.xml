@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:stretchColumns="0,3">
+    <TableRow
+        android:id="@+id/table0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注冊"
+            android:textColor="#673AB7"
+            android:textSize="70px" />
+
+        <TextView />
+    </TableRow>
+    <TableRow
+        android:id="@+id/table1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView />
+        <TextView
+            android:id="@+id/yonghuming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="賬號"
+            android:textColor="#FF00"
+            android:textSize="36px"/>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="請輸入賬號"
+            android:minWidth="200px"
+            android:textSize="36px" />
+        <TextView />
+    </TableRow>
+    <TableRow
+        android:id="@+id/table5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="電話"
+            android:textColor="#FF00"
+            android:textSize="36px"/>
+        <EditText
+            android:id="@+id/phone1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="請輸入電話號碼"
+            android:minWidth="200px"
+            android:textSize="36px" />
+
+        <TextView />
+    </TableRow>
+    <TableRow
+        android:id="@+id/table2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView />
+        <TextView
+            android:id="@+id/mima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密碼"
+            android:textColor="#FF00"
+            android:textSize="36px"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="請輸入密碼"
+            android:minWidth="200px"
+            android:textSize="36px" />
+        <TextView />
+    </TableRow>
+    <TableRow
+        android:id="@+id/table4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView />
+        <TextView
+            android:id="@+id/zaicimima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="再次輸入密碼"
+            android:textColor="#FF00"
+            android:textSize="36px"/>
+
+        <EditText
+            android:id="@+id/zcmima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="再次輸入密碼"
+            android:minWidth="200px"
+            android:textSize="36px" />
+        <TextView />
+    </TableRow>
+    <TableRow
+        android:id="@+id/table6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView />
+        <TextView
+            android:id="@+id/city1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="城市"
+            android:textColor="#FF00"
+            android:textSize="36px"/>
+
+        <Spinner
+            android:id="@+id/city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/city" />
+
+        <TextView />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/table3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <TextView />
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注冊"/>
+
+        <Button
+            android:id="@+id/quit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="quit"
+            android:text="取消" />
+        <TextView />
+    </TableRow>
+
+
+
+
+
+
+</TableLayout>
