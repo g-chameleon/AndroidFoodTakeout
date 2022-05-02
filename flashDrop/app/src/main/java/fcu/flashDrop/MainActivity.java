@@ -2,7 +2,9 @@ package fcu.flashDrop;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -20,6 +22,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initView();
+    }
+    public void user(View v) {
+        Intent it = new Intent(this, user.class);
+
+        startActivity(it);
     }
 
     private void initView() {

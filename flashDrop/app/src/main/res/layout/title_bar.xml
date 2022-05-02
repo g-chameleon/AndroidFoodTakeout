@@ -10,7 +10,8 @@
         android:layout_height="55dp"
         android:layout_centerVertical="true"
         android:background="@drawable/go_back"
-        android:clickable="true" />
+        android:clickable="true"
+        android:onClick="user" />
 
     <TextView
         android:id="@+id/tv_title"

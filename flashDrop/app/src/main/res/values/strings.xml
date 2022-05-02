@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">flashDrop</string>
+    <string-array name="city">
+        <item>臺北</item>
+        <item>新北</item>
+        <item>臺中</item>
+        <item>臺南</item>
+        <item>高雄</item>
+        <item>新竹</item>
+        <item>屏東</item>
+        <item>臺東</item>
+        <item>花蓮</item>
+    </string-array>
 </resources>
