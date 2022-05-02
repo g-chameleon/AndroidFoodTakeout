@@ -27,7 +27,7 @@
     <td>g-chameleon</td>
   </tr>
 </table>
-<tr>5月2日</tr>
+<tr>5月3日</tr>
 <table>
   <tr>
     <td>組員姓名</td>
