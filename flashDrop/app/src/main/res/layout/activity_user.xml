@@ -97,7 +97,9 @@
                 android:id="@+id/imageView3"
                 android:layout_width="135sp"
                 android:layout_height="50sp"
+                android:onClick="search"
                 app:srcCompat="?android:attr/actionModeWebSearchDrawable" />
+
 
             <ImageView
                 android:id="@+id/imageView2"

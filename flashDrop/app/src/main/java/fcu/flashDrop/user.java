@@ -18,4 +18,10 @@ public class user extends AppCompatActivity {
 
         startActivity(it);
     }
+
+    public void search(View v) {
+        Intent it = new Intent(this, SearchActivity.class);
+
+        startActivity(it);
+    }
 }
