@@ -7,13 +7,16 @@
     android:background="#fcf0c0">
 
     <include
-        android:id="@+id/include"
-        layout="@layout/title_user" />
+        android:id="@+id/title_1"
+        layout="@layout/title_bar" />
 
     <LinearLayout
         android:layout_width="411dp"
         android:layout_height="675dp"
         android:orientation="vertical"
+        android:translationX="-4dp"
+        android:translationY="55dp"
+        tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="56dp">
 
         <TextView

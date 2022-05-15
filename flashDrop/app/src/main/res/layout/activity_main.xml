@@ -6,7 +6,9 @@
     android:layout_height="match_parent"
     android:background="@android:color/white"
     android:orientation="vertical">
-    <include layout="@layout/title_bar" />
+    <include
+        android:id="@+id/title_1"
+        layout="@layout/title_bar" />
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

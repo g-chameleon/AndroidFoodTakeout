@@ -7,7 +7,9 @@
     android:orientation="vertical"
     android:stretchColumns="0,3">
 
-    <include layout="@layout/title_reg" />
+    <include
+        android:id="@+id/title_1"
+        layout="@layout/title_bar" />
 
     <TableRow
         android:id="@+id/table0"
@@ -30,7 +32,8 @@
     <TableRow
         android:id="@+id/table1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="#DDC983">
 
         <TextView />
 
@@ -43,14 +46,13 @@
             android:textSize="36px" />
 
         <EditText
-            android:id="@+id/name"
+            android:id="@+id/email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="請輸入賬號"
-            android:minWidth="200px"
-            android:shadowColor="#000000"
-            android:textColor="@color/black"
-            android:textSize="36px" />
+            android:ems="10"
+            android:hint="123"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black" />
 
         <TextView />
     </TableRow>
@@ -58,7 +60,8 @@
     <TableRow
         android:id="@+id/table5"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="#DDC983">
 
         <TextView />
 
@@ -84,7 +87,8 @@
     <TableRow
         android:id="@+id/table2"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="#DDC983">
 
         <TextView />
 
@@ -110,7 +114,8 @@
     <TableRow
         android:id="@+id/table4"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="#DDC983">
 
         <TextView />
 
@@ -136,7 +141,8 @@
     <TableRow
         android:id="@+id/table6"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="#DDC983">
 
         <TextView />
 
@@ -161,22 +167,23 @@
     <TableRow
         android:id="@+id/table3"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="#DDC983">
 
         <TextView />
-
-        <Button
-            android:id="@+id/login"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="注冊" />
 
         <Button
             android:id="@+id/quit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="quit"
             android:text="取消" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="quit"
+            android:text="註冊" />
 
         <TextView />
     </TableRow>
