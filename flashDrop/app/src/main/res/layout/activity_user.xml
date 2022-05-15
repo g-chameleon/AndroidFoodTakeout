@@ -64,14 +64,18 @@
             android:textColor="#090909"
             android:textSize="36sp" />
 
-        <TextView
-            android:id="@+id/textView7"
+        <Button
+            android:id="@+id/button_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="登錄"
+            android:onClick="Login"
+            android:text="登入"
             android:textAlignment="center"
-            android:textColor="#4CAF50"
-            android:textSize="36sp" />
+            android:textColor="#FBF7F7"
+            android:textSize="36sp"
+            app:iconTint="#090909"
+            tools:text="登入" />
+
 
         <Button
             android:id="@+id/button"

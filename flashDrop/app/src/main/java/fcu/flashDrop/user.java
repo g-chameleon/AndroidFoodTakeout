@@ -34,6 +34,11 @@ public class user extends AppCompatActivity {
         startActivity(it);
     }
 
+    public void Login(View v) {
+        Intent it = new Intent(this, Login.class);
+
+        startActivity(it);
+    }
     public void search(View v) {
         Intent it = new Intent(this, SearchActivity.class);
 
