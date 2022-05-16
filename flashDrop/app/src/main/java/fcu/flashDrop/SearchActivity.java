@@ -1,5 +1,7 @@
 package fcu.flashDrop;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
 
@@ -37,6 +39,11 @@ public class SearchActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
+        ActionBar actionBar = getSupportActionBar();
+        if(actionBar != null){
+            actionBar.setHomeButtonEnabled(true);
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
 
         for (int i=0; i< names.length; i++){
             ItemsModal itemsModal = new ItemsModal(images[i], names[i]);
@@ -46,6 +53,16 @@ public class SearchActivity extends AppCompatActivity {
         customAdapter = new CustomAdapter(itemsModalList, this);
 
         gridView.setAdapter(customAdapter);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case android.R.id.home:
+                this.finish();
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     @Override
