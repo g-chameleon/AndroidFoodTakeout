@@ -84,3 +84,31 @@
     <td>#3</td>
   </tr>
 </table>
+<tr>5月23日</tr>
+<table>
+  <tr>
+    <td>組員姓名</td>
+    <td>學號</td>
+    <td>完成issue</td>
+  </tr>
+  <tr>
+    <td>白雋揚</td>
+    <td>D0982271</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>黃冠齊</td>
+    <td>D0870757</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>張澤煜</td>
+    <td>D0870863</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>高明皓</td>
+    <td>D0871052</td>
+    <td></td>
+  </tr>
+</table>
