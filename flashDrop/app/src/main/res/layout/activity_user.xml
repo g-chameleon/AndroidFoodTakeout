@@ -36,6 +36,7 @@
             android:textAlignment="center"
             android:textColor="#121111"
             android:textSize="36sp" />
+
         <Button
             android:id="@+id/textView3"
             android:layout_width="match_parent"
@@ -44,8 +45,7 @@
             android:text="優惠券"
             android:textAlignment="center"
             android:textColor="#FBF7F7"
-            android:textSize="36sp"
-            app:iconTint="#090909" />
+            android:textSize="36sp" />
 
         <TextView
             android:id="@+id/textView4"
