@@ -36,15 +36,16 @@
             android:textAlignment="center"
             android:textColor="#121111"
             android:textSize="36sp" />
-
-        <TextView
+        <Button
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="coupon"
             android:text="優惠券"
             android:textAlignment="center"
-            android:textColor="#0E0E0E"
-            android:textSize="36sp" />
+            android:textColor="#FBF7F7"
+            android:textSize="36sp"
+            app:iconTint="#090909" />
 
         <TextView
             android:id="@+id/textView4"

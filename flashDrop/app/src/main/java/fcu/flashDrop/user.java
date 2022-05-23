@@ -44,5 +44,11 @@ public class user extends AppCompatActivity {
 
         startActivity(it);
     }
+    public void coupon(View v) {
+        Intent it = new Intent(this, couponActivity.class);
+
+        startActivity(it);
+    }
+
 
 }
