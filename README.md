@@ -84,7 +84,7 @@
     <td>#3</td>
   </tr>
 </table>
-<tr>5月23日</tr>
+<tr>5月30日</tr>
 <table>
   <tr>
     <td>組員姓名</td>
@@ -99,7 +99,7 @@
     <tr>
     <td>黃冠齊</td>
     <td>D0870757</td>
-    <td>#11</td>
+    <td></td>
   </tr>
     <tr>
     <td>張澤煜</td>
