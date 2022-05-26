@@ -16,8 +16,8 @@
         android:orientation="vertical"
         android:translationX="-4dp"
         android:translationY="55dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="56dp">
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
 
         <TextView
             android:id="@+id/textView"

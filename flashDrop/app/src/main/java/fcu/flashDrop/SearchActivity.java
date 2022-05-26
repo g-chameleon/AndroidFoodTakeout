@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -13,6 +14,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.Filter;
 import android.widget.Filterable;
@@ -24,6 +26,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SearchActivity extends AppCompatActivity {
+
+    public static final String ALBUM_NO = "album_no";
 
     private int images[]={R.drawable.kfc, R.drawable.mc,R.drawable.pizzah, R.drawable.xinbake};
     private String names[]={"Kfc","McDonald's","pizza hut", "Starbucks"};
@@ -53,6 +57,18 @@ public class SearchActivity extends AppCompatActivity {
         customAdapter = new CustomAdapter(itemsModalList, this);
 
         gridView.setAdapter(customAdapter);
+
+        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+//開啓
+                Intent intent = new Intent();
+                intent.setClass(SearchActivity.this, ClickeditemActivity.class);
+                intent.putExtra(ALBUM_NO, position);
+                startActivity(intent);
+
+            }
+        });
     }
 
     @Override
@@ -64,7 +80,7 @@ public class SearchActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
-
+//sousuo
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
         getMenuInflater().inflate(R.menu.menu,menu);

@@ -12,4 +12,9 @@
         <item>臺東</item>
         <item>花蓮</item>
     </string-array>
+    <string name="text1"> KFC</string>
+    <string name="text2"> McDonald</string>
+    <string name="text3"> pizza hut</string>
+    <string name="text4"> Starbucks</string>
+    <string name="tv_car_button">加入購物車</string>
 </resources>
