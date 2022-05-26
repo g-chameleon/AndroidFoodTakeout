@@ -84,7 +84,7 @@
     <td>#3</td>
   </tr>
 </table>
-<tr>5月30日</tr>
+<tr>5月23日</tr>
 <table>
   <tr>
     <td>組員姓名</td>
