@@ -27,8 +27,13 @@
                 android:id="@+id/iv_shop_list"
                 android:layout_height="match_parent"
                 android:layout_width="match_parent"/>
-            <include layout="@layout/shop_item" />
+
                 />
         </LinearLayout>
     </ScrollView>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>
