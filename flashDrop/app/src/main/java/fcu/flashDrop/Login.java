@@ -1,5 +1,6 @@
 package fcu.flashDrop;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -9,9 +10,15 @@ import android.view.Window;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class Login extends AppCompatActivity {
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+
+public class Login extends AppCompatActivity implements OnCompleteListener<AuthResult> {
     EditText username;
     EditText password;
+    FirebaseAuth firebaseAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,23 +29,16 @@ public class Login extends AppCompatActivity {
 
         username = (EditText) findViewById(R.id.Username);
         password = (EditText) findViewById(R.id.Password);
+        firebaseAuth = FirebaseAuth.getInstance();
+
     }
 
-    public void Check(View v) {
-
-        String ausername = "D0870757";
-        String apassword = "123";
-        String user = username.getText().toString().trim();
-        String pass = password.getText().toString().trim();
-        if (user.equals(ausername) && pass.equals(apassword)) {
-            Toast.makeText(this,"Welcome!",Toast.LENGTH_SHORT).show();
-            Intent it = new Intent(this,MainActivity.class);
-            startActivity(it);
-        }
-        else {
-            Toast.makeText(this,"Sorry,please try agin!",Toast.LENGTH_SHORT).show();
-        }
+    public void onLogin(View view){
+        String useremail = username.getText().toString();
+        String userpassword = password.getText().toString();
+        firebaseAuth.signInWithEmailAndPassword(useremail,userpassword).addOnCompleteListener(this,this);
     }
+
     public void reg(View v) {
         Intent it = new Intent(this, reg.class);
         startActivity(it);
@@ -47,5 +47,17 @@ public class Login extends AppCompatActivity {
     public void onClick(View v) {
         Intent it = new Intent(this, user.class);
         startActivity(it);
+    }
+
+    @Override
+    public void onComplete(@NonNull Task<AuthResult> task) {
+        if (task.isSuccessful()){
+            Toast.makeText(this, "登入成功", Toast.LENGTH_SHORT).show();
+            MainActivity.VALID_USER = true;
+            finish();
+        }
+        else {
+            Toast.makeText(this,"登入失敗",Toast.LENGTH_SHORT).show();
+        }
     }
 }

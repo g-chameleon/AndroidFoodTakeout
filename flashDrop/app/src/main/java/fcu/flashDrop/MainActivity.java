@@ -23,6 +23,8 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
+    public  static boolean VALID_USER = false;
+
     private final int[] shop_image = {R.drawable.kfc};
     private final String[] shop_name = {"KFC"};
     private final String[] shop_sale = {"月售：999"};
@@ -55,6 +57,12 @@ public class MainActivity extends AppCompatActivity {
         customAdapter = new CustomAdapter(itemsShopList,this);
 
         listView.setAdapter(customAdapter);
+
+        if (!VALID_USER){
+            Intent it = new Intent();
+            it.setClass(this,Login.class);
+            startActivity(it);
+        }
     }
 
     public void onClick(View v) {

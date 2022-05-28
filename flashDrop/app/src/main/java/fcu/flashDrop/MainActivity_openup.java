@@ -17,4 +17,5 @@ public class MainActivity_openup extends AppCompatActivity {
         Intent it = new Intent(this,MainActivity.class);
         startActivity(it);
     }
+
 }
