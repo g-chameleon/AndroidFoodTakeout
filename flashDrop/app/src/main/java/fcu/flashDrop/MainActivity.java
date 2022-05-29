@@ -63,6 +63,10 @@ public class MainActivity extends AppCompatActivity {
             it.setClass(this,Login.class);
             startActivity(it);
         }
+        for(int i=0; i< shop_name.length;i++){
+            ItemsShop itemsShop = new ItemsShop(shop_image[i],shop_name[i],shop_sale[i],shop_cost[i],shop_welfare[i],shop_time[i]);
+            itemsShopList.add(itemsShop);
+        }
     }
 
     public void onClick(View v) {
