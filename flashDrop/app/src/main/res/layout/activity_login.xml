@@ -78,7 +78,7 @@
             android:layout_marginRight="30dp"
             android:layout_marginBottom="20dp"
             android:background="#FFFFFB"
-            android:onClick="Check"
+            android:onClick="onLogin"
             android:text="登 录"
             android:textColor="#0F1010"
             android:textSize="18sp" />

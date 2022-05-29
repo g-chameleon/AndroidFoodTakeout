@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "725857384835",
+    "project_id": "foodtakeout-5d632",
+    "storage_bucket": "foodtakeout-5d632.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725857384835:android:b005a38cc6bde589775eb6",
+        "android_client_info": {
+          "package_name": "fcu.flashDrop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "725857384835-b5shji6uip26flpa94vbbcke084qdfso.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy3pz3NC9jMhKlj4xGC-Y6uDlH0NqiZXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "725857384835-b5shji6uip26flpa94vbbcke084qdfso.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

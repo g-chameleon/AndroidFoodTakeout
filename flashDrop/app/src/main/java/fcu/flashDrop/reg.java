@@ -85,4 +85,5 @@ public class reg extends AppCompatActivity implements OnCompleteListener{
         user.put("phone",phone);
         phoneRef.updateChildren(user);
     }
+
 }
