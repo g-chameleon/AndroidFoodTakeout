@@ -31,6 +31,9 @@
             android:name=".ShopDetailActivity"
             android:exported="false"/>
         <activity
+            android:name=".couponActivity"
+            android:exported="false"/>
+        <activity
             android:name=".MainActivity_openup"
             android:exported="true">
 
