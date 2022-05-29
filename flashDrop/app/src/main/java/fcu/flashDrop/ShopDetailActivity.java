@@ -32,6 +32,7 @@ public class ShopDetailActivity extends AppCompatActivity {
     ListView listView;
     FoodAdapter foodAdapter;
     private TextView textView;
+    private ImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +46,21 @@ public class ShopDetailActivity extends AppCompatActivity {
         int albumNo = intent.getIntExtra(MainActivity.ALBUM_NO,0);
 
         if(albumNo==0){
+            textView = (TextView)findViewById(R.id.tv_shop_name);
+            //使用setText()方法修改文本
+            textView.setText(R.string.tv_shop_name);
+
+            textView = (TextView)findViewById(R.id.tv_time);
+            //使用setText()方法修改文本
+            textView.setText(R.string.tv_time);
+
+            textView = (TextView)findViewById(R.id.tv_notice);
+            //使用setText()方法修改文本
+            textView.setText(R.string.tv_notice);
+
+
+            imageView = findViewById(R.id.iv_shop_pic);
+            imageView.setImageResource(R.drawable.kfc);
             for(int i=0; i<=2;i++){
                 ItemsDetail itemsdetail = new ItemsDetail(food_image[i],food_name[i],food_taste[i],food_sale[i],food_price[i]);
                 itemsDetailList.add(itemsdetail);
