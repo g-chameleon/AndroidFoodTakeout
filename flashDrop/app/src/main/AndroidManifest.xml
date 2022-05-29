@@ -28,8 +28,12 @@
             android:name=".reg"
             android:exported="false" />
         <activity
+            android:name=".ShopDetailActivity"
+            android:exported="false"/>
+        <activity
             android:name=".MainActivity_openup"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

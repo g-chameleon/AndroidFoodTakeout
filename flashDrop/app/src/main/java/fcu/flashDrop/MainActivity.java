@@ -1,27 +1,24 @@
 package fcu.flashDrop;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
+import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
-
-import fcu.flashDrop.R;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
+
+    public static final String ALBUM_NO = "album_no";
 
     public  static boolean VALID_USER = false;
 
@@ -63,10 +60,24 @@ public class MainActivity extends AppCompatActivity {
             it.setClass(this,Login.class);
             startActivity(it);
         }
+        //登陸的判斷
         for(int i=0; i< shop_name.length;i++){
             ItemsShop itemsShop = new ItemsShop(shop_image[i],shop_name[i],shop_sale[i],shop_cost[i],shop_welfare[i],shop_time[i]);
             itemsShopList.add(itemsShop);
         }
+        //輸出陣列中的內容
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                Intent intent = new Intent();
+                intent.setClass(MainActivity.this, ShopDetailActivity.class);
+                intent.putExtra(ALBUM_NO, position);
+                startActivity(intent);
+
+            }
+        });
+        //頁面跳轉
     }
 
     public void onClick(View v) {
