@@ -18,7 +18,16 @@
     <string name="text4"> Starbucks</string>
     <string name="tv_shop_name"> 肯德基</string>
     <string name="tv_time"> 配送約15-20分鐘</string>
-    <string name="tv_notice">公告：所有套餐全場九折優惠</string>
+    <string name="tv_notice">公告：滿￥100減￥10</string>
+    <string name="tv_shop_name1"> 麥當勞</string>
+    <string name="tv_time1"> 配送約20分鐘</string>
+    <string name="tv_notice1">公告：薯條買一送一</string>
+    <string name="tv_shop_name2"> PIZZA HUT</string>
+    <string name="tv_time2"> 配送約40分鐘</string>
+    <string name="tv_notice2">公告：紅茶買一送一</string>
+    <string name="tv_shop_name3"> Starbucks</string>
+    <string name="tv_time3"> 配送約30分鐘</string>
+    <string name="tv_notice3">公告：無</string>
     <string name="tv_title">店鋪詳情</string>
     <string name="tv_car_button">加入購物車</string>
 </resources>

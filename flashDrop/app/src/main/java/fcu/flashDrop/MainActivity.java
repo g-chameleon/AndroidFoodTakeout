@@ -22,12 +22,12 @@ public class MainActivity extends AppCompatActivity {
 
     public  static boolean VALID_USER = false;
 
-    private final int[] shop_image = {R.drawable.kfc};
-    private final String[] shop_name = {"KFC"};
-    private final String[] shop_sale = {"月售：999"};
-    private final String[] shop_cost = {"起送：￥100|外送：￥20"};
-    private final String[] shop_welfare = {"滿￥100減￥10"};
-    private final String[] shop_time = {"大約30分鐘送達"};
+    private final int[] shop_image = {R.drawable.kfc, R.drawable.mc,R.drawable.pizzah, R.drawable.xinbake};
+    private final String[] shop_name = {"KFC","McDonald's","pizza hut", "Starbucks"};
+    private final String[] shop_sale = {"月售：999","月售：1023","月售：2333","月售：767"};
+    private final String[] shop_cost = {"起送：￥100|外送：￥20","起送：￥100|外送：￥10","起送：￥70|外送：￥25","起送：￥50|外送：￥20"};
+    private final String[] shop_welfare = {"滿￥100減￥10","薯條買一送一","紅茶買一送一","無"};
+    private final String[] shop_time = {"大約15-20分鐘送達","大約20分鐘送達","大約40分鐘送達","大約30分鐘送達"};
 
     private final List<ItemsShop> itemsShopList = new ArrayList<>();
 
