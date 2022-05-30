@@ -52,7 +52,7 @@
   <tr>
     <td>高明皓</td>
     <td>D0871052</td>
-    <td>#2</td>
+    <td>#23</td>
   </tr>
 </table>
 </table>
@@ -81,7 +81,7 @@
   <tr>
     <td>高明皓</td>
     <td>D0871052</td>
-    <td>#3</td>
+    <td>#2</td>
   </tr>
 </table>
 <tr>5月23日</tr>
@@ -109,7 +109,7 @@
   <tr>
     <td>高明皓</td>
     <td>D0871052</td>
-    <td></td>
+    <td>#24</td>
   </tr>
 </table>
 <tr>5月30日</tr>
