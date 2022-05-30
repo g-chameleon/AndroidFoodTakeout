@@ -72,6 +72,10 @@ public class ShopDetailActivity extends AppCompatActivity {
         listView.setAdapter(foodAdapter);
 
     }
+    public void onClick(View v) {
+        Intent it = new Intent(this, MainActivity.class);
+        startActivity(it);
+    }
     public class FoodAdapter extends BaseAdapter {
 
         private final List<ItemsDetail> itemsDetailList;
