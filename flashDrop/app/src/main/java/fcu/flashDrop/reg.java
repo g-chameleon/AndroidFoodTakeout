@@ -7,10 +7,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
+import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.Spinner;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -36,17 +38,12 @@ public class reg extends AppCompatActivity implements OnCompleteListener{
         getSupportActionBar().hide();
         setContentView(R.layout.activity_reg);
 
-        View title_1 = findViewById(R.id.title_1);
-        TextView tv1 = (TextView) title_1.findViewById(R.id.tv_title);
-        tv1.setText("註冊");
-        ImageView imageView = findViewById(R.id.icon);
-        imageView.setImageResource(R.drawable.go_back);
-
-        User_Email = findViewById(R.id.email);
-        User_password = findViewById(R.id.password);
-        User_phone = findViewById(R.id.phone1);
+        User_Email = findViewById(R.id.Username);
+        User_password = findViewById(R.id.Password_reg);
+        User_phone = findViewById(R.id.Phone_reg);
 
         firebaseAuth = FirebaseAuth.getInstance();
+
     }
     public void OnRegister(View view){
         String email = User_Email.getText().toString();

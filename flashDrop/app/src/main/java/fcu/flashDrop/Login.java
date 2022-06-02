@@ -28,7 +28,7 @@ public class Login extends AppCompatActivity implements OnCompleteListener<AuthR
         setContentView(R.layout.activity_login);
 
         username = (EditText) findViewById(R.id.Username);
-        password = (EditText) findViewById(R.id.Password);
+        password = (EditText) findViewById(R.id.Phone_reg);
         firebaseAuth = FirebaseAuth.getInstance();
 
     }
