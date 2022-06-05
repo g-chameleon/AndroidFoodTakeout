@@ -63,7 +63,7 @@ public class SearchActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 //開啓
                 Intent intent = new Intent();
-                intent.setClass(SearchActivity.this, ClickeditemActivity.class);
+                intent.setClass(SearchActivity.this, ShopDetailActivity.class);
                 intent.putExtra(ALBUM_NO, position);
                 startActivity(intent);
 
