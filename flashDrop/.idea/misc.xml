@@ -14,6 +14,7 @@
         <entry key="..\:/Users/17301/AndroidStudioProjects/flashDrop/app/src/main/res/layout/title_bar.xml" value="0.259963768115942" />
         <entry key="..\:/Users/17301/Desktop/AndroidFoodTakeout/flashDrop/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1465" />
         <entry key="..\:/Users/17301/Desktop/AndroidFoodTakeout/flashDrop/app/src/main/res/drawable/add_car_selector.xml" value="0.2115" />
+        <entry key="..\:/Users/17301/Desktop/AndroidFoodTakeout/flashDrop/app/src/main/res/drawable/badge_bg.xml" value="0.1" />
         <entry key="..\:/Users/17301/Desktop/AndroidFoodTakeout/flashDrop/app/src/main/res/drawable/cornor_bg.xml" value="0.178" />
         <entry key="..\:/Users/17301/Desktop/AndroidFoodTakeout/flashDrop/app/src/main/res/drawable/ic_launcher_background.xml" value="0.281" />
         <entry key="..\:/Users/17301/Desktop/AndroidFoodTakeout/flashDrop/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
@@ -21,6 +22,7 @@
         <entry key="..\:/Users/17301/Desktop/AndroidFoodTakeout/flashDrop/app/src/main/res/drawable/iv_back_selector.xml" value="0.281" />
         <entry key="..\:/Users/17301/Desktop/AndroidFoodTakeout/flashDrop/app/src/main/res/drawable/menu_item_bg_selector.xml" value="0.2115" />
         <entry key="..\:/Users/17301/Desktop/AndroidFoodTakeout/flashDrop/app/src/main/res/drawable/taste_bg.xml" value="0.164" />
+        <entry key="..\:/Users/17301/Desktop/AndroidFoodTakeout/flashDrop/app/src/main/res/drawable/underline.xml" value="0.1465" />
         <entry key="..\:/Users/17301/Desktop/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/activity_clickeditem.xml" value="0.16489361702127658" />
         <entry key="..\:/Users/17301/Desktop/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/activity_login.xml" value="0.16489361702127658" />
         <entry key="..\:/Users/17301/Desktop/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/activity_main.xml" value="0.25" />
@@ -28,17 +30,18 @@
         <entry key="..\:/Users/17301/Desktop/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/activity_search.xml" value="0.15925925925925927" />
         <entry key="..\:/Users/17301/Desktop/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/activity_shop_detail.xml" value="0.18857142857142858" />
         <entry key="..\:/Users/17301/Desktop/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/activity_user.xml" value="0.18857142857142858" />
+        <entry key="..\:/Users/17301/Desktop/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/car.xml" value="0.32155797101449274" />
         <entry key="..\:/Users/17301/Desktop/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/coupon.xml" value="0.3828571428571429" />
         <entry key="..\:/Users/17301/Desktop/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/menu_item.xml" value="0.2857142857142857" />
         <entry key="..\:/Users/17301/Desktop/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/menu_items.xml" value="0.16489361702127658" />
         <entry key="..\:/Users/17301/Desktop/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/row_items.xml" value="0.15925925925925927" />
+        <entry key="..\:/Users/17301/Desktop/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/shop_car.xml" value="0.32155797101449274" />
         <entry key="..\:/Users/17301/Desktop/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/shop_detail_head.xml" value="0.32155797101449274" />
         <entry key="..\:/Users/17301/Desktop/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/shop_item.xml" value="0.5142857142857143" />
         <entry key="..\:/Users/17301/Desktop/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/title_bar.xml" value="0.1703125" />
         <entry key="..\:/Users/17301/Desktop/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/title_reg.xml" value="0.1703125" />
         <entry key="..\:/Users/17301/Desktop/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/title_user.xml" value="0.1703125" />
         <entry key="..\:/Users/17301/Desktop/AndroidFoodTakeout/flashDrop/app/src/main/res/menu/menu.xml" value="0.3390625" />
-        <entry key="..\:/Users/INDope/AndroidStudioProjects/65/flashDrop/app/src/main/res/layout/row_items.xml" value="0.26927083333333335" />
         <entry key="..\:/Users/INDope/AndroidStudioProjects/HW3/flashDrop/app/src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
         <entry key="..\:/Users/INDope/AndroidStudioProjects/HW3/flashDrop/app/src/main/res/layout/activity_main_openup.xml" value="0.19610507246376813" />
         <entry key="..\:/Users/INDope/AndroidStudioProjects/HW3/flashDrop/app/src/main/res/layout/activity_reg.xml" value="0.19610507246376813" />
@@ -51,19 +54,13 @@
         <entry key="..\:/Users/INDope/AndroidStudioProjects/HW3/flashDrop/app/src/main/res/layout/shop_detail_head.xml" value="0.19610507246376813" />
         <entry key="..\:/Users/INDope/AndroidStudioProjects/HW3/flashDrop/app/src/main/res/layout/shop_item.xml" value="0.19610507246376813" />
         <entry key="..\:/Users/INDope/AndroidStudioProjects/HW3/flashDrop/app/src/main/res/layout/title_bar.xml" value="0.19610507246376813" />
-        <entry key="..\:/Users/MSI-NB/StudioProjects/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/activity_login.xml" value="0.24166666666666667" />
+        <entry key="..\:/Users/MSI-NB/StudioProjects/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/activity_login.xml" value="0.2608915906788247" />
         <entry key="..\:/Users/MSI-NB/StudioProjects/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/activity_main.xml" value="0.2608915906788247" />
         <entry key="..\:/Users/MSI-NB/StudioProjects/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/activity_main_openup.xml" value="0.2608915906788247" />
-        <entry key="..\:/Users/MSI-NB/StudioProjects/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/activity_reg.xml" value="0.33" />
+        <entry key="..\:/Users/MSI-NB/StudioProjects/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/activity_reg.xml" value="0.2608915906788247" />
         <entry key="..\:/Users/MSI-NB/StudioProjects/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/activity_search.xml" value="0.2608915906788247" />
         <entry key="..\:/Users/MSI-NB/StudioProjects/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/activity_user.xml" value="0.2608915906788247" />
         <entry key="..\:/Users/MSI-NB/StudioProjects/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/menu_item.xml" value="0.2608915906788247" />
-        <entry key="..\:/Users/MSI-NB/StudioProjects/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/menu_items.xml" value="0.17395833333333333" />
-        <entry key="..\:/Users/MSI-NB/StudioProjects/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/row_items.xml" value="0.1" />
-        <entry key="..\:/Users/MSI-NB/StudioProjects/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/shop_detail_head.xml" value="0.17395833333333333" />
-        <entry key="..\:/Users/MSI-NB/StudioProjects/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/shop_item.xml" value="0.17395833333333333" />
-        <entry key="..\:/Users/MSI-NB/StudioProjects/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/spinner_color.xml" value="0.16540020263424518" />
-        <entry key="..\:/Users/MSI-NB/StudioProjects/AndroidFoodTakeout/flashDrop/app/src/main/res/layout/title_bar.xml" value="0.17395833333333333" />
       </map>
     </option>
   </component>

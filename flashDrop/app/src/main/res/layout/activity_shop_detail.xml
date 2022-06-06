@@ -123,4 +123,5 @@
             android:layout_marginBottom="50dp" />
 
     </RelativeLayout>
+    <include layout="@layout/shop_car" />
 </FrameLayout>
