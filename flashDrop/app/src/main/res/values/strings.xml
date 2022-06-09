@@ -29,5 +29,9 @@
     <string name="tv_time3"> 配送約30分鐘</string>
     <string name="tv_notice3">公告：無</string>
     <string name="tv_title">店鋪詳情</string>
+    <string name="text5"> Burger king</string>
+    <string name="tv_shop_name4"> Burger king</string>
+    <string name="tv_time4"> 配送約25-30分鐘</string>
+    <string name="tv_notice4">公告:滿￥200免外送費</string>
     <string name="tv_car_button">加入購物車</string>
 </resources>

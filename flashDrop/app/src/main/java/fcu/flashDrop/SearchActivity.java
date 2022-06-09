@@ -29,8 +29,8 @@ public class SearchActivity extends AppCompatActivity {
 
     public static final String ALBUM_NO = "album_no";
 
-    private int images[]={R.drawable.kfc, R.drawable.mc,R.drawable.pizzah, R.drawable.xinbake};
-    private String names[]={"Kfc","McDonald's","pizza hut", "Starbucks"};
+    private int images[]={R.drawable.kfc, R.drawable.mc,R.drawable.pizzah, R.drawable.xinbake,R.drawable.bking};
+    private String names[]={"Kfc","McDonald's","pizza hut", "Starbucks","Burger king"};
 
     private List<ItemsModal> itemsModalList = new ArrayList<>();
 
