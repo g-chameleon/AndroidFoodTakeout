@@ -34,7 +34,7 @@ public class user extends AppCompatActivity {
         startActivity(it);
     }
 
-    public void Login(View v) {
+    public void out(View v) {
         Intent it = new Intent(this, Login.class);
 
         startActivity(it);

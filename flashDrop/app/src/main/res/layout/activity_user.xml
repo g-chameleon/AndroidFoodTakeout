@@ -69,26 +69,14 @@
             android:id="@+id/button_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="Login"
-            android:text="登入"
+            android:onClick="out"
+            android:text="登出"
             android:textAlignment="center"
             android:textColor="#FBF7F7"
             android:textSize="36sp"
             app:iconTint="#090909"
-            tools:text="登入" />
+            tools:text="登出" />
 
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="reg"
-            android:text="注冊"
-            android:textAlignment="center"
-            android:textColor="#FBF7F7"
-            android:textSize="36sp"
-            app:iconTint="#090909"
-            tools:text="注冊" />
 
         <TableRow
             android:layout_width="match_parent"
